@@ -1,0 +1,30 @@
+{
+  "name": "prism-traffic-manager",
+  "version": "1.0.0",
+  "description": "An expressjs middleware for Prism traffic manager",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://artifactory.drillops.slb.com/artifactory/api/npm/npm-repo/"
+  },
+  "keywords": [
+    "traffic",
+    "manager",
+    "expressjs",
+    "prism"
+  ],
+  "publishConfig": {
+    "registry": "https://artifactory.drillops.slb.com/artifactory/api/npm/npm-repo/"
+  },
+  "author": "czhang13@slb.com",
+  "license": "ISC",
+  "dependencies": {
+    "jsonwebtoken": "^8.2.1"
+  },
+  "devDependencies": {
+    "express": "^4.0.0"
+  }
+}

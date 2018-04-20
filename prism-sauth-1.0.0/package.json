@@ -1,0 +1,38 @@
+{
+  "name": "prism-sauth",
+  "version": "1.0.0",
+  "description": "An expressjs middleware for Prism SAuth",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test"
+  },
+  "keywords": [
+    "sauth",
+    "expressjs",
+    "prism",
+    "nodejs"
+  ],
+  "author": "czhang13@slb.com",
+  "license": "ISC",
+  "repository": {
+    "type": "jfrog",
+    "url": "https://artifactory.drillops.slb.com/artifactory/api/npm/npm-repo/"
+  },
+  "peerDependencies": {
+    "express": "^4.0.0",
+    "cookie-session": "^2.0.0-beta.3"
+  },
+  "dependencies": {
+    "passport": "^0.4.0",
+    "passport-strategy": "^1.0.0",
+    "querystring": "^0.2.0",
+    "request": "^2.85.0",
+    "util": "^0.10.3",
+    "cookie-session": "^2.0.0-beta.3"
+  },
+  "devDependencies": {
+    "body-parser": "^1.18.2",
+    "connect-ensure-login": "^0.1.1",
+    "express": "^4.0.0"
+  }
+}
